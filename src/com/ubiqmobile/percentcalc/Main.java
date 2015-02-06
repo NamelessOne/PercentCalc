@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
 	    try
         {
-            new PercentCalc().percentCalc();
+            System.out.println(new PercentCalc().percent_calc());
         }catch (IOException e){
             e.printStackTrace();
         }
